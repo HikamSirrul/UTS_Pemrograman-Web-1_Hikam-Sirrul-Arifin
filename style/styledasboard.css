@@ -1,0 +1,286 @@
+.jumbotron {
+  padding-top: 6rem;
+  margin-bottom: 40vh;
+  height: 100%;
+}
+
+.lead {
+  font-weight: bold; /* Membuat teks lebih tebal */
+  margin-left: 10%;
+  color: #000000; 
+}
+
+.imagesaya{
+  margin-top: 6vh;
+}
+
+#home{
+  background-color: white;
+}
+
+
+#direction {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-bottom: 12vh;
+  align-items: center;
+}
+
+.direksi{
+  align-items: center;
+}
+
+.card{
+  border-color: transparent;
+}
+
+.card-img-top{
+  height:300px;
+  width: 400px;
+}
+
+.card-text{
+color: grey;
+}
+
+
+#about{
+  margin-bottom: 12vh;
+  height: 100%;
+  background-position: center;
+  background-color: white;
+  background-size: cover;
+}
+
+
+section {
+  padding-top: 5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+  margin-left: 5%;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 60px; 
+  background-color: black;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 130px;
+}
+
+
+.carousel-item {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 400px; 
+}
+.carousel-item img {
+  width: auto;
+  height: 100%; 
+  max-width: 100%;
+  border-radius: 5px; 
+}
+
+.kontak{
+  margin-bottom: 7vh;
+}
+
+#message {
+  display: flex;
+  align-items: center;
+  background-color: #d4edda; 
+  color: #000000; 
+  border: 1px solid #c3e6cb;
+  border-radius: 5px; 
+  padding: 15px; 
+  margin-top: 10px;
+  transition: opacity 1s ease;
+}
+
+#toggleDetails {
+  color: black;
+  background-color: transparent;
+  border:transparent; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+
+#toggleDetails:hover{
+  color: grey;
+}
+
+#message i {
+  margin-right: 10px; 
+}
+
+#dash {
+  background-image: url('../image/bgwhite.jpg');
+  color: white;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  height: 100vh; 
+  font-weight: bold;
+  font-size: xx-large;
+  align-items: first  baseline;
+
+  
+}
+
+.display-4{
+  margin-left: 10%;
+  color: #000000;
+}
+
+.lead{
+  margin-left: 10%;
+  color: #000000; 
+}
+
+  .disp {
+    color: black; 
+    display: flex; 
+    justify-content: center;
+    font-size: xx-large; 
+    font-weight: 400;
+    margin: 0; 
+    text-align: center;
+    align-items: first  baseline;
+
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+
+.jumbotron h1 {
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeInUp 0.8s forwards;
+}
+
+.jumbotron h1:nth-child(1) {
+  animation-delay: 0.2s; 
+}
+
+.jumbotron h1:nth-child(2) {
+  animation-delay: 0.4s; 
+}
+
+.jumbotron h1:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideInUp {
+  animation: slideInUp 1s ease-in-out forwards;
+}
+  
+.jumbotron h1 {
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeInUp 0.8s forwards; 
+}
+
+.jumbotron h1:nth-child(1) {
+  animation-delay: 0.2s; 
+}
+
+.jumbotron h1:nth-child(2) {
+  animation-delay: 0.4s; 
+}
+
+.jumbotron h1:nth-child(3) {
+  animation-delay: 0.6s; 
+}
+
+.jumbotron h1:nth-child(4) { 
+  animation-delay: 0.8s; 
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lg1-animation {
+  opacity: 0;
+  animation: fadeIn 1s forwards; 
+  animation-delay: 0.8s; 
+}
+
+#hom{
+background-image: url(../image/bg2.jpg);
+color: white;
+display: flex; 
+flex-direction: column; 
+justify-content: center; 
+height: 100vh; 
+font-weight: bold;
+font-size: xx-large;
+align-items: first  baseline;
+
+}
